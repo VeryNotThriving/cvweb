@@ -43,6 +43,9 @@ html {
       background: #000000;
       border: none;
     }
+    .navbar-brand{
+      text-align: left;
+    }
     .container{
       
       max-width: 960px;
