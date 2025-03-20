@@ -111,12 +111,9 @@ html {
   
     /* Visual */
     background-color: #ffffff;
-    float: right;
+
 
   }
 .row {
     float: right;
-}
-.col-md-6 {
-    padding-left: 40px;
 }
