@@ -80,6 +80,9 @@ html {
     padding-left: 20px;
     padding-right: 20px;
 }
+  textarea {
+    width: 500px;
+  }
     
     /* media query for nav background color change */
     @media only screen and (max-width: 767px) {

@@ -34,18 +34,21 @@
     <div class="container2">
         <h1 class="header">Contact</h1>
         <hr>
-
-        <h3>Name</h3>
-        <!-- insert editible textbox here -->
-        <h6 class="textbox-one" contenteditable="true"> John Doe</h6>
-        <h3>Email</h3>
-         <!-- insert editible textbox here -->
-         <h6 class="textbox-two" contenteditable="true">example@gmail.com</h6>
-        <h3>Message</h3>
-       <!-- insert editible textbox here -->
-        <h4 class="textbox-three" contenteditable="true"></h4>
-
-        <button><h4>Submit</h4></button>
+          <label>
+            <h3>Email address:</h3>
+            <hr style="visibility: hidden;">
+            <input type="email" name="email">
+          </label>
+          <hr style="visibility: hidden;">
+          <label>
+            <h3>Your message:</h3>
+            <hr style="visibility: hidden;">
+            <textarea name="message"></textarea>
+          </label>
+          <hr style="visibility: hidden;">
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+        </form>
     </div>
 
     <footer class="footer">      
