@@ -1,7 +1,7 @@
 body {
     /* Typography */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #000000;    
+    background-image: url("assets/iStock-2198117145.jpg");    
 }
 html {
     /* Positioning */
@@ -40,7 +40,7 @@ html {
     }
     
     .navbar {
-      background: #bdbdbd;
+      background: #000000;
       border: none;
     }
     .container{
@@ -52,12 +52,26 @@ html {
       padding-left: 20px;
       padding-right: 20px;
   }
-  
-  .container2{
-    background-color: #367D8A;
-    color: #fffcfc;
-    opacity: 0.7;
+  .container1{
+    background-color: #ef2cb4;
+    color: #ffffff;
+    opacity: 0.9;
     max-width: 960px;
+    max-height: max-content;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container2{
+    background-color: #ffffff;
+    color: #000000;
+    max-width: 960px;
+    border: #351f1f;
+    border-radius: 10px;
+    box-shadow: #bdbdbd;
     max-height: max-content;
     margin:auto;
     margin-top: 50px;
@@ -70,7 +84,7 @@ html {
     /* media query for nav background color change */
     @media only screen and (max-width: 767px) {
       .navbar-header {
-        background-color: #4aaaa5;
+        background-color: #ffffff;
       }
     }
     /* CONNECT W/ ME CSS */
@@ -90,7 +104,7 @@ html {
     height: 60px;
   
     /* Visual */
-    background-color: #fffcfc;
+    background-color: #ffffff;
     float: right;
 
   }
