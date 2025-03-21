@@ -1,14 +1,15 @@
 body {
     /* Typography */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-image: url("assets/iStock-2198117145.jpg");    
+    background-image: url("assets/gradient-bg-2022-04-v1.png");   
+    height: 100%; 
 }
 html {
     /* Positioning */
     position: relative;
   
     /* Box-model */
-    min-height: 100%;
+    height: 100%;
 
   }
   
@@ -40,7 +41,8 @@ html {
     }
     
     .navbar {
-      background: #000000;
+      opacity: 1; /* Leave this as 1 */
+      background-color: rgba(0,0,0,0);
       border: none;
     }
     .navbar-brand{
@@ -56,17 +58,18 @@ html {
       padding-right: 20px;
   }
   .container1{
-    background-color: #ef2cb4;
+    background-color: #032f07;
     color: #ffffff;
-    opacity: 0.9;
     max-width: 960px;
-    max-height: max-content;
+    height: 100%;
     margin:auto;
-    margin-top: 50px;
     margin-bottom: 80px;
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 20px;
+  }
+  .header{
+    padding-top: 50px;
   }
   .container2{
     background-color: #ffffff;
@@ -110,10 +113,13 @@ html {
     height: 60px;
   
     /* Visual */
-    background-color: #ffffff;
+    opacity: 1; /* Leave this as 1 */
+    background-color: rgba(0,0,0,0);
 
 
   }
 .row {
-    float: left;
+    float: right;
+    margin: center;
+    text-align: center;
 }
